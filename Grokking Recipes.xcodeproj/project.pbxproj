@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F971C261EEF444500094431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F971C251EEF444500094431 /* AppDelegate.m */; };
+		0F971C291EEF444500094431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F971C281EEF444500094431 /* main.m */; };
+		0F971C2C1EEF444500094431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F971C2B1EEF444500094431 /* ViewController.m */; };
+		0F971C2F1EEF444500094431 /* Grokking_Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F971C2D1EEF444500094431 /* Grokking_Recipes.xcdatamodeld */; };
+		0F971C311EEF444500094431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F971C301EEF444500094431 /* Assets.xcassets */; };
+		0F971C341EEF444500094431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F971C321EEF444500094431 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F971C211EEF444500094431 /* Grokking Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grokking Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F971C241EEF444500094431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F971C251EEF444500094431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F971C281EEF444500094431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F971C2A1EEF444500094431 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F971C2B1EEF444500094431 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F971C2E1EEF444500094431 /* Grokking_Recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grokking_Recipes.xcdatamodel; sourceTree = "<group>"; };
+		0F971C301EEF444500094431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F971C331EEF444500094431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F971C351EEF444500094431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F971C1E1EEF444500094431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F971C181EEF444500094431 = {
+			isa = PBXGroup;
+			children = (
+				0F971C231EEF444500094431 /* Grokking Recipes */,
+				0F971C221EEF444500094431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F971C221EEF444500094431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F971C211EEF444500094431 /* Grokking Recipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F971C231EEF444500094431 /* Grokking Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				0F971C241EEF444500094431 /* AppDelegate.h */,
+				0F971C251EEF444500094431 /* AppDelegate.m */,
+				0F971C2A1EEF444500094431 /* ViewController.h */,
+				0F971C2B1EEF444500094431 /* ViewController.m */,
+				0F971C301EEF444500094431 /* Assets.xcassets */,
+				0F971C321EEF444500094431 /* Main.storyboard */,
+				0F971C351EEF444500094431 /* Info.plist */,
+				0F971C2D1EEF444500094431 /* Grokking_Recipes.xcdatamodeld */,
+				0F971C271EEF444500094431 /* Supporting Files */,
+			);
+			path = "Grokking Recipes";
+			sourceTree = "<group>";
+		};
+		0F971C271EEF444500094431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F971C281EEF444500094431 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F971C201EEF444500094431 /* Grokking Recipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F971C381EEF444500094431 /* Build configuration list for PBXNativeTarget "Grokking Recipes" */;
+			buildPhases = (
+				0F971C1D1EEF444500094431 /* Sources */,
+				0F971C1E1EEF444500094431 /* Frameworks */,
+				0F971C1F1EEF444500094431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grokking Recipes";
+			productName = "Grokking Recipes";
+			productReference = 0F971C211EEF444500094431 /* Grokking Recipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F971C191EEF444500094431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Carlos D. Santiago";
+				TargetAttributes = {
+					0F971C201EEF444500094431 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F971C1C1EEF444500094431 /* Build configuration list for PBXProject "Grokking Recipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F971C181EEF444500094431;
+			productRefGroup = 0F971C221EEF444500094431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F971C201EEF444500094431 /* Grokking Recipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F971C1F1EEF444500094431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F971C311EEF444500094431 /* Assets.xcassets in Resources */,
+				0F971C341EEF444500094431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F971C1D1EEF444500094431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F971C2C1EEF444500094431 /* ViewController.m in Sources */,
+				0F971C291EEF444500094431 /* main.m in Sources */,
+				0F971C261EEF444500094431 /* AppDelegate.m in Sources */,
+				0F971C2F1EEF444500094431 /* Grokking_Recipes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F971C321EEF444500094431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F971C331EEF444500094431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F971C361EEF444500094431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F971C371EEF444500094431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F971C391EEF444500094431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Grokking Recipes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slashlos.Grokking-Recipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F971C3A1EEF444500094431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Grokking Recipes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slashlos.Grokking-Recipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F971C1C1EEF444500094431 /* Build configuration list for PBXProject "Grokking Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F971C361EEF444500094431 /* Debug */,
+				0F971C371EEF444500094431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F971C381EEF444500094431 /* Build configuration list for PBXNativeTarget "Grokking Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F971C391EEF444500094431 /* Debug */,
+				0F971C3A1EEF444500094431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F971C2D1EEF444500094431 /* Grokking_Recipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F971C2E1EEF444500094431 /* Grokking_Recipes.xcdatamodel */,
+			);
+			currentVersion = 0F971C2E1EEF444500094431 /* Grokking_Recipes.xcdatamodel */;
+			path = Grokking_Recipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F971C191EEF444500094431 /* Project object */;
+}
