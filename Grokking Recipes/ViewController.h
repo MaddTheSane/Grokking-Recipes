@@ -10,6 +10,12 @@
 
 @interface ViewController : NSViewController
 
+@property (strong) IBOutlet NSArrayController *Recipes;
+@property (strong) IBOutlet NSArrayController *Ingredients;
+@property (strong) IBOutlet NSArrayController *Types;
+
+- (IBAction)saveAction:(id)sender;
+- (IBAction)addImage:(id)sender;
 
 @end
 
