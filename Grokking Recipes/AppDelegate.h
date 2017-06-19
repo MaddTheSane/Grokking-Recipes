@@ -13,6 +13,7 @@
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
+- (NSString *)applicationSupportFolder;
 
 @end
 
