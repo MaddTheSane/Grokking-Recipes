@@ -65,7 +65,7 @@
 				0F971C301EEF444500094431 /* Assets.xcassets */,
 				0F971C321EEF444500094431 /* Main.storyboard */,
 				0F971C351EEF444500094431 /* Info.plist */,
-				0F971C2D1EEF444500094431 /* Grokking_Recipes.xcdatamodeld */,
+				0F971C3B1EEF447000094431 /* Models */,
 				0F971C271EEF444500094431 /* Supporting Files */,
 			);
 			path = "Grokking Recipes";
@@ -77,6 +77,14 @@
 				0F971C281EEF444500094431 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F971C3B1EEF447000094431 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F971C2D1EEF444500094431 /* Grokking_Recipes.xcdatamodeld */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +274,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Grokking Recipes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slashlos.Grokking-Recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -278,6 +287,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Grokking Recipes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slashlos.Grokking-Recipes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -302,6 +312,7 @@
 				0F971C3A1EEF444500094431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
