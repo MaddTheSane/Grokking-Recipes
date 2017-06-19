@@ -7,10 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <Foundation/NSFileManager.h>
 
 @interface AppDelegate ()
-
-- (IBAction)saveAction:(id)sender;
 
 @end
 
@@ -23,6 +22,13 @@
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+}
+
+- (NSString *)applicationSupportFolder
+{
+    NSArray * paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
+
+    return paths.firstObject;
 }
 
 
